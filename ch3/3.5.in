@@ -1,9 +1,10 @@
-aiuf b2
- dkjf   o32 84 fd 
-23  238 8o2 
+#include <iostream>
+#include <string>
 
-
-fe22
-   2984 fdlkj
-df
-  fweflj    l2 ldwf 209e 3
+int main() {
+    std::string s1;
+    while (std::cin >> s1) {
+        std::cout << s1 + " ";
+    }
+    return 0;
+}
