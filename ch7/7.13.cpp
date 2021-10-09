@@ -9,7 +9,7 @@ struct Sales_data {
   Sales_data(const std::string &no) : bookNo(no) {}
   Sales_data(const std::string &no, unsigned us, double price)
       : bookNo(no), units_sold(us), revenue(price * us) {}
-  Sales_data::Sales_data(std::istream &is) {
+  Sales_data(std::istream &is) {
     read(is, *this);
   }
 
